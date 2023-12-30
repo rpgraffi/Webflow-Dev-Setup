@@ -6,7 +6,7 @@ module.exports = merge(common, {
   mode: "development",
   devServer: {
     hot: false,
-    disableHostCheck: true,
+    public: "vg438d-8080.csb.app",
     headers: {
       "Access-Control-Allow-Origin": "*",
       "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, PATCH, OPTIONS",
