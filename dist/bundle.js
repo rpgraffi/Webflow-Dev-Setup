@@ -1,1 +1,2 @@
-console.log("Flow Phantom");
+console.log("What nice");
+//# sourceMappingURL=bundle.js.map

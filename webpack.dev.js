@@ -6,12 +6,8 @@ module.exports = merge(common, {
   mode: "development",
   devServer: {
     hot: false,
-    public: "vg438d-8080.csb.app",
-    headers: {
-      "Access-Control-Allow-Origin": "*",
-      "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, PATCH, OPTIONS",
-      "Access-Control-Allow-Headers":
-        "X-Requested-With, content-type, Authorization",
-    },
+    compress: true,
+    allowedHosts: [".vg438d-8080.csb.app"],
+    disableHostCheck: true,
   },
 });
